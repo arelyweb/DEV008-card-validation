@@ -19,14 +19,23 @@
           <label for="name">Nombre </label>
           <input type="text" class="main-conteiner__form-section__input-mode"  id="idnombre"  placeholder="Angel Villanueva" name="FechaCaducidad" maxlength="150">
           <br>
-          <label for="name">Fecha de caducidad</label>
-          <input type="text" class="main-conteiner__form-section__input-mode" id="idfechaCaducidad" placeholder="02/23" name="FechaCaducidad" maxlength="5">
-          <br>
-          <label for="name">CVV</label>
-          <input type="text" class="main-conteiner__form-section__input-mode" id="idcvv" name="cvv" placeholder="123" inputmode="numeric" maxlength="3">
+          <div class="main-conteiner__grid"> <!--inicia grid-->
+            <div>
+              <label for="name">Fecha de caducidad</label>
+              <input type="text" class="main-conteiner__form-section__input-mode" id="idfechaCaducidad" placeholder="02/23" name="FechaCaducidad" maxlength="5">
+            </div>
+           <div>
+            <label for="name">CVV</label><br>
+            <input type="text" class="main-conteiner__form-section__input-mode" id="idcvv" name="cvv" placeholder="123" inputmode="numeric" maxlength="3">
+           </div>
+          </div>
           <br>          
       </form>
-      <label id="msg"></label> 
+      <div class="msg-aviso">
+        <label id="msg_g" class="msg-aviso__good"></label> 
+        <label id="msg_b" class="msg-aviso__bad"></label> 
+      </div>
+     
       <br>
       <button id="idbotonRealizarPago" class="main-conteiner__button">Comprar ahora</button> 
      

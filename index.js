@@ -16,13 +16,13 @@ function valida(numTarjeta) {
     const RespValida = validator.isValid(tarjetaLimpia);
 
     if (RespValida!==true){
-      document.getElementById("msg").innerHTML = "Número inválido.";
+      document.getElementById("msg_b").innerHTML = "Número inválido.";
     }else{
-      document.getElementById("msg").innerHTML = "Se realizó el pago.";
+      document.getElementById("msg_g").innerHTML = "Se realizó el pago.";
     }
      
   }else{
-    document.getElementById("msg").innerHTML = "Número inválido.";
+    document.getElementById("msg_b").innerHTML = "Número inválido.";
   }
  
   
