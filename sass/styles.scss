@@ -1,0 +1,85 @@
+@use "variables";
+
+
+
+h1{
+    margin-top: -20px;
+    padding: 30px 0 0 30px;
+    font-family: variables.$tp-playfair;
+    background-color: variables.$sl-oldlace;
+    border-radius: 20px;
+   
+}
+
+hr{
+    width: 250px;
+}
+
+.header{
+    font-family: variables.$tp-playfair;
+    background-color: variables.$sl-seashell;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main-conteiner{
+    background-color: variables.$sl-blanco;
+    border-radius: 20px;
+    padding: 25px;
+    width: 575px;
+    margin-top:110px;
+    margin-left: 450px;
+    text-align: center;
+    box-shadow: 0 0 14px 0;
+    font-size: 1em;
+    &__form-section{
+        border-radius: 20px;
+        margin: 10px 10px 10px;
+        padding: 60px 24px 1px;/*parte superior 90, a los lados 24 y abajo 45*/
+        font-family: variables.$tp-roboto;
+        &__input-mode{
+            font-family: variables.$tp-roboto;
+            margin: .5em;
+            padding: 3px;
+            border-radius: 10px;
+            border-color: variables.$sl-seashell;
+            &::-webkit-input-placeholder { 
+                font-family: variables.$tp-roboto;
+              }
+              
+        }
+    }
+    &__button{
+        color: variables.$sl-blanco;
+        background-color: variables.$sl-salmon;
+        font-family: variables.$tp-roboto;
+        padding: 10px;
+        border-radius: 30px;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1em;
+        &:hover {
+            background-color:variables.$sl-salmonlight;
+            cursor: pointer;
+         }
+    }
+    &__grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+.msg-aviso{
+    color:variables.$sl-orage;
+    font-family: variables.$tp-roboto;
+    font-size: 20px;
+    &__good{
+        color:variables.$sl-verde;
+    }
+    &__bad{
+        color:variables.$sl-red;
+    }
+}
+

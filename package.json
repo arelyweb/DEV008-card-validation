@@ -30,5 +30,23 @@
     "createdAt": "2023-04-20T15:42:40.404Z",
     "version": "6.2.0",
     "commit": "a5360f78b634be4f14eaea996ee4c7afc85a2f48"
-  }
+  },
+  "description": "* [1. Preámbulo](#1-preámbulo)\r * [2. Resumen del proyecto](#2-resumen-del-proyecto)\r * [3. Consideraciones generales](#3-consideraciones-generales)\r * [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)\r * [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)\r * [6. Consideraciones técnicas](#6-consideraciones-técnicas)\r * [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)\r * [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)\r * [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arelyweb/DEV008-card-validation.git"
+  },
+  "keywords": [
+    "algotimoLuhn",
+    "cardvalidation",
+    "javascript"
+  ],
+  "author": "Arely Gonzalez Arteaga",
+  "bugs": {
+    "url": "https://github.com/arelyweb/DEV008-card-validation/issues"
+  },
+  "homepage": "https://github.com/arelyweb/DEV008-card-validation#readme"
 }

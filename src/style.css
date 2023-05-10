@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+/*colores*/
+/*fuente*/
+h1 {
+  margin-top: -20px;
+  padding: 30px 0 0 30px;
+  font-family: "Playfair Display";
+  background-color: #fff6e7;
+  border-radius: 20px;
+}
+
+hr {
+  width: 250px;
+}
+
+.header {
+  font-family: "Playfair Display";
+  background-color: #fff1e8;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-conteiner {
+  background-color: white;
+  border-radius: 20px;
+  padding: 25px;
+  width: 575px;
+  margin-top: 110px;
+  margin-left: 450px;
+  text-align: center;
+  box-shadow: 0 0 14px 0;
+  font-size: 1em;
+}
+.main-conteiner__form-section {
+  border-radius: 20px;
+  margin: 10px 10px 10px;
+  padding: 60px 24px 1px; /*parte superior 90, a los lados 24 y abajo 45*/
+  font-family: "Roboto";
+}
+.main-conteiner__form-section__input-mode {
+  font-family: "Roboto";
+  margin: 0.5em;
+  padding: 3px;
+  border-radius: 10px;
+  border-color: #fff1e8;
+}
+.main-conteiner__form-section__input-mode::-webkit-input-placeholder {
+  font-family: "Roboto";
+}
+.main-conteiner__button {
+  color: white;
+  background-color: #ff9675;
+  font-family: "Roboto";
+  padding: 10px;
+  border-radius: 30px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1em;
+}
+.main-conteiner__button:hover {
+  background-color: #ffbb90;
+  cursor: pointer;
+}
+.main-conteiner__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.msg-aviso {
+  color: #EBB948;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+.msg-aviso__good {
+  color: #41f750;
+}
+.msg-aviso__bad {
+  color: #eb6048;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -2,13 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Tarjeta de crédito válida CV30</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    
+    <header class="header">Doroty Gaynor</header>
+    <main class="main-conteiner">
+      
+      <h1>Pago<hr></h1>
+      <section class="main-conteiner__section-conteiner">
+      <form  class="main-conteiner__form-section">
+          <label for="name">Número de tarjeta</label>
+          <input type="text" class="main-conteiner__form-section__input-mode" id="idnumTarjeta" placeholder="123456678019" name="NumeroTarjeta" inputmode="numeric" maxlength="15" required>
+          <br>
+          <label for="name">Nombre </label>
+          <input type="text" class="main-conteiner__form-section__input-mode"  id="idnombre"  placeholder="Angel Villanueva" name="FechaCaducidad" maxlength="150">
+          <br>
+          <div class="main-conteiner__grid"> <!--inicia grid-->
+            <div>
+              <label for="name">Fecha de caducidad</label>
+              <input type="text" class="main-conteiner__form-section__input-mode" id="idfechaCaducidad" placeholder="02/23" name="FechaCaducidad" maxlength="5">
+            </div>
+           <div>
+            <label for="name">CVV</label><br>
+            <input type="text" class="main-conteiner__form-section__input-mode" id="idcvv" name="cvv" placeholder="123" inputmode="numeric" maxlength="3">
+           </div>
+          </div>
+          <br>          
+      </form>
+      <div class="msg-aviso">
+        <label id="msg_g" class="msg-aviso__good"></label> 
+        <label id="msg_b" class="msg-aviso__bad"></label> 
+      </div>
+     
+      <br>
+      <button id="idbotonRealizarPago" class="main-conteiner__button">Comprar ahora</button> 
+     
+    </section>
+  
+    </main>
+    <footer>
+
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
